@@ -35,11 +35,20 @@
                         <action selector="contentsRectDemo:" destination="-1" eventType="touchUpInside" id="hgy-Rc-wh3"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="woU-iE-0qt">
+                    <rect key="frame" x="109" y="460" width="102" height="30"/>
+                    <state key="normal" title="ContentCenter"/>
+                    <connections>
+                        <action selector="contentCenter:" destination="-1" eventType="touchUpInside" id="OJf-HW-JzQ"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.85490196080000003" green="0.85490196080000003" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="0Vk-pe-7iD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6p0-6y-gNn"/>
                 <constraint firstItem="WXJ-fB-Tdj" firstAttribute="top" secondItem="0Vk-pe-7iD" secondAttribute="bottom" constant="36" id="GBK-DU-8yZ"/>
+                <constraint firstItem="woU-iE-0qt" firstAttribute="top" secondItem="WXJ-fB-Tdj" secondAttribute="bottom" constant="10" id="JQP-rH-Qa2"/>
+                <constraint firstItem="woU-iE-0qt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YPe-fg-OIk"/>
                 <constraint firstItem="WXJ-fB-Tdj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jlK-IU-Roo"/>
                 <constraint firstItem="0Vk-pe-7iD" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="sUn-2h-RtI"/>
             </constraints>
