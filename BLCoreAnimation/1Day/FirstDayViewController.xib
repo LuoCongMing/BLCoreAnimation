@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstDayViewController">
+            <connections>
+                <outlet property="layerView" destination="0Vk-pe-7iD" id="dLo-oh-2Qg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Vk-pe-7iD">
+                    <rect key="frame" x="60" y="184" width="200" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Vrk-zl-uh9"/>
+                        <constraint firstAttribute="height" constant="200" id="xKP-XK-LJc"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXJ-fB-Tdj">
+                    <rect key="frame" x="109" y="420" width="102" height="30"/>
+                    <state key="normal" title="图片剪切Demo"/>
+                    <connections>
+                        <action selector="contentsRectDemo:" destination="-1" eventType="touchUpInside" id="hgy-Rc-wh3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.85490196080000003" green="0.85490196080000003" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="0Vk-pe-7iD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6p0-6y-gNn"/>
+                <constraint firstItem="WXJ-fB-Tdj" firstAttribute="top" secondItem="0Vk-pe-7iD" secondAttribute="bottom" constant="36" id="GBK-DU-8yZ"/>
+                <constraint firstItem="WXJ-fB-Tdj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jlK-IU-Roo"/>
+                <constraint firstItem="0Vk-pe-7iD" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="sUn-2h-RtI"/>
+            </constraints>
+            <point key="canvasLocation" x="-539" y="25"/>
+        </view>
+    </objects>
+</document>

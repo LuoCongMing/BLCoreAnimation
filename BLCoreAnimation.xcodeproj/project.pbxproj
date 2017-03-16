@@ -14,6 +14,10 @@
 		E3FAAA091E792DB700B1F1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FAAA081E792DB700B1F1A6 /* Assets.xcassets */; };
 		E3FAAA0C1E792DB700B1F1A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FAAA0A1E792DB700B1F1A6 /* LaunchScreen.storyboard */; };
 		E3FAAA171E792DB700B1F1A6 /* BLCoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAAA161E792DB700B1F1A6 /* BLCoreAnimationTests.m */; };
+		E3FAAA251E79326000B1F1A6 /* FirstDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAAA231E79326000B1F1A6 /* FirstDayViewController.m */; };
+		E3FAAA261E79326000B1F1A6 /* FirstDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3FAAA241E79326000B1F1A6 /* FirstDayViewController.xib */; };
+		E3FAAA2A1E7945B800B1F1A6 /* ContentsRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAAA281E7945B800B1F1A6 /* ContentsRectViewController.m */; };
+		E3FAAA2B1E7945B800B1F1A6 /* ContentsRectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3FAAA291E7945B800B1F1A6 /* ContentsRectViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		E3FAAA121E792DB700B1F1A6 /* BLCoreAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLCoreAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FAAA161E792DB700B1F1A6 /* BLCoreAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLCoreAnimationTests.m; sourceTree = "<group>"; };
 		E3FAAA181E792DB700B1F1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FAAA221E79326000B1F1A6 /* FirstDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDayViewController.h; sourceTree = "<group>"; };
+		E3FAAA231E79326000B1F1A6 /* FirstDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDayViewController.m; sourceTree = "<group>"; };
+		E3FAAA241E79326000B1F1A6 /* FirstDayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstDayViewController.xib; sourceTree = "<group>"; };
+		E3FAAA271E7945B800B1F1A6 /* ContentsRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsRectViewController.h; sourceTree = "<group>"; };
+		E3FAAA281E7945B800B1F1A6 /* ContentsRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsRectViewController.m; sourceTree = "<group>"; };
+		E3FAAA291E7945B800B1F1A6 /* ContentsRectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentsRectViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 		E3FAA9FB1E792DB700B1F1A6 /* BLCoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				E3FAAA211E79322A00B1F1A6 /* 1Day */,
 				E3FAA9FF1E792DB700B1F1A6 /* AppDelegate.h */,
 				E3FAAA001E792DB700B1F1A6 /* AppDelegate.m */,
 				E3FAAA021E792DB700B1F1A6 /* ViewController.h */,
@@ -109,6 +120,19 @@
 				E3FAAA181E792DB700B1F1A6 /* Info.plist */,
 			);
 			path = BLCoreAnimationTests;
+			sourceTree = "<group>";
+		};
+		E3FAAA211E79322A00B1F1A6 /* 1Day */ = {
+			isa = PBXGroup;
+			children = (
+				E3FAAA221E79326000B1F1A6 /* FirstDayViewController.h */,
+				E3FAAA231E79326000B1F1A6 /* FirstDayViewController.m */,
+				E3FAAA241E79326000B1F1A6 /* FirstDayViewController.xib */,
+				E3FAAA271E7945B800B1F1A6 /* ContentsRectViewController.h */,
+				E3FAAA281E7945B800B1F1A6 /* ContentsRectViewController.m */,
+				E3FAAA291E7945B800B1F1A6 /* ContentsRectViewController.xib */,
+			);
+			path = 1Day;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +219,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FAAA2B1E7945B800B1F1A6 /* ContentsRectViewController.xib in Resources */,
+				E3FAAA261E79326000B1F1A6 /* FirstDayViewController.xib in Resources */,
 				E3FAAA0C1E792DB700B1F1A6 /* LaunchScreen.storyboard in Resources */,
 				E3FAAA091E792DB700B1F1A6 /* Assets.xcassets in Resources */,
 				E3FAAA071E792DB700B1F1A6 /* Main.storyboard in Resources */,
@@ -215,6 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FAAA2A1E7945B800B1F1A6 /* ContentsRectViewController.m in Sources */,
+				E3FAAA251E79326000B1F1A6 /* FirstDayViewController.m in Sources */,
 				E3FAAA041E792DB700B1F1A6 /* ViewController.m in Sources */,
 				E3FAAA011E792DB700B1F1A6 /* AppDelegate.m in Sources */,
 				E3FAA9FE1E792DB700B1F1A6 /* main.m in Sources */,
