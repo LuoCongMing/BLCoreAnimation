@@ -53,7 +53,7 @@
     
     //contentsCenter 其实是一个CGRect，它定义了一个固定的边框和一个在图 层上可拉伸的区域。 改变 contentsCenter 的值并不会影响到寄宿图的显示，除 非这个图层的大小改变了，你才看得到效果。  默认是{0, 0, 1, 1}
     
-    blueLayer.contentsCenter = CGRectMake(0.5, 0, 0.5, 0.5);//设置拉伸范围为左下角
+    blueLayer.contentsCenter = CGRectMake(0.5, 0, 0.5, 0.5);//设置拉伸范围为左下角,这个显示内容会受到contentScale影响
 }
 
 

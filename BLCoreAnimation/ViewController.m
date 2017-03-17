@@ -17,11 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.title = @"Core Animation";
+    self.title = @"《iOS Core Animation》";
     self.tableView.rowHeight = 40;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     self.tableView.tableFooterView = [UIView new];
-    _controllers = @[@"FirstDayViewController"];
+    _controllers = @[@"FirstDayViewController",@"SecondViewController",@"HitTestViewController"];
     
 }
 

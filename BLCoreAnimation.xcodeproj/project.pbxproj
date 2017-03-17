@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E334F77C1E7A7E4E0016ABFE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E334F77A1E7A7E4E0016ABFE /* SecondViewController.m */; };
+		E334F77D1E7A7E4E0016ABFE /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E334F77B1E7A7E4E0016ABFE /* SecondViewController.xib */; };
+		E35912EC1E7B92A8005F7A89 /* HitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35912EA1E7B92A8005F7A89 /* HitTestViewController.m */; };
+		E35912ED1E7B92A8005F7A89 /* HitTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E35912EB1E7B92A8005F7A89 /* HitTestViewController.xib */; };
 		E3FAA9FE1E792DB700B1F1A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAA9FD1E792DB700B1F1A6 /* main.m */; };
 		E3FAAA011E792DB700B1F1A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAAA001E792DB700B1F1A6 /* AppDelegate.m */; };
 		E3FAAA041E792DB700B1F1A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAAA031E792DB700B1F1A6 /* ViewController.m */; };
@@ -31,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E334F7791E7A7E4E0016ABFE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E334F77A1E7A7E4E0016ABFE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E334F77B1E7A7E4E0016ABFE /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		E35912E91E7B92A8005F7A89 /* HitTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitTestViewController.h; sourceTree = "<group>"; };
+		E35912EA1E7B92A8005F7A89 /* HitTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitTestViewController.m; sourceTree = "<group>"; };
+		E35912EB1E7B92A8005F7A89 /* HitTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HitTestViewController.xib; sourceTree = "<group>"; };
 		E3FAA9F91E792DB700B1F1A6 /* BLCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FAA9FD1E792DB700B1F1A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3FAA9FF1E792DB700B1F1A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +80,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E334F7781E7A7E260016ABFE /* 2Day */ = {
+			isa = PBXGroup;
+			children = (
+				E334F7791E7A7E4E0016ABFE /* SecondViewController.h */,
+				E334F77A1E7A7E4E0016ABFE /* SecondViewController.m */,
+				E334F77B1E7A7E4E0016ABFE /* SecondViewController.xib */,
+			);
+			path = 2Day;
+			sourceTree = "<group>";
+		};
+		E35912E81E7B9291005F7A89 /* 3Day */ = {
+			isa = PBXGroup;
+			children = (
+				E35912E91E7B92A8005F7A89 /* HitTestViewController.h */,
+				E35912EA1E7B92A8005F7A89 /* HitTestViewController.m */,
+				E35912EB1E7B92A8005F7A89 /* HitTestViewController.xib */,
+			);
+			path = 3Day;
+			sourceTree = "<group>";
+		};
 		E3FAA9F01E792DB700B1F1A6 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				E3FAAA211E79322A00B1F1A6 /* 1Day */,
+				E334F7781E7A7E260016ABFE /* 2Day */,
+				E35912E81E7B9291005F7A89 /* 3Day */,
 				E3FAA9FF1E792DB700B1F1A6 /* AppDelegate.h */,
 				E3FAAA001E792DB700B1F1A6 /* AppDelegate.m */,
 				E3FAAA021E792DB700B1F1A6 /* ViewController.h */,
@@ -221,6 +253,8 @@
 			files = (
 				E3FAAA2B1E7945B800B1F1A6 /* ContentsRectViewController.xib in Resources */,
 				E3FAAA261E79326000B1F1A6 /* FirstDayViewController.xib in Resources */,
+				E35912ED1E7B92A8005F7A89 /* HitTestViewController.xib in Resources */,
+				E334F77D1E7A7E4E0016ABFE /* SecondViewController.xib in Resources */,
 				E3FAAA0C1E792DB700B1F1A6 /* LaunchScreen.storyboard in Resources */,
 				E3FAAA091E792DB700B1F1A6 /* Assets.xcassets in Resources */,
 				E3FAAA071E792DB700B1F1A6 /* Main.storyboard in Resources */,
@@ -241,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35912EC1E7B92A8005F7A89 /* HitTestViewController.m in Sources */,
+				E334F77C1E7A7E4E0016ABFE /* SecondViewController.m in Sources */,
 				E3FAAA2A1E7945B800B1F1A6 /* ContentsRectViewController.m in Sources */,
 				E3FAAA251E79326000B1F1A6 /* FirstDayViewController.m in Sources */,
 				E3FAAA041E792DB700B1F1A6 /* ViewController.m in Sources */,
@@ -444,6 +480,7 @@
 				E3FAAA1D1E792DB700B1F1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3FAAA1E1E792DB700B1F1A6 /* Build configuration list for PBXNativeTarget "BLCoreAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +489,7 @@
 				E3FAAA201E792DB700B1F1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
