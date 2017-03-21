@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3076C151E80C1EF00B58426 /* ReplicatorLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3076C131E80C1EF00B58426 /* ReplicatorLayerController.m */; };
+		E3076C161E80C1EF00B58426 /* ReplicatorLayerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3076C141E80C1EF00B58426 /* ReplicatorLayerController.xib */; };
 		E334F77C1E7A7E4E0016ABFE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E334F77A1E7A7E4E0016ABFE /* SecondViewController.m */; };
 		E334F77D1E7A7E4E0016ABFE /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E334F77B1E7A7E4E0016ABFE /* SecondViewController.xib */; };
 		E35912EC1E7B92A8005F7A89 /* HitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35912EA1E7B92A8005F7A89 /* HitTestViewController.m */; };
@@ -15,6 +17,12 @@
 		E35912F21E7BD5BB005F7A89 /* CGAffineTransformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E35912F01E7BD5BB005F7A89 /* CGAffineTransformViewController.xib */; };
 		E3A8C8831E7F74C200FE78F6 /* CGATransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A8C8811E7F74C200FE78F6 /* CGATransformViewController.m */; };
 		E3A8C8841E7F74C200FE78F6 /* CGATransformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A8C8821E7F74C200FE78F6 /* CGATransformViewController.xib */; };
+		E3A8C8891E7FB14700FE78F6 /* CornerRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A8C8871E7FB14700FE78F6 /* CornerRectViewController.m */; };
+		E3A8C88A1E7FB14700FE78F6 /* CornerRectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A8C8881E7FB14700FE78F6 /* CornerRectViewController.xib */; };
+		E3A8C88E1E7FB50C00FE78F6 /* CATextLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A8C88C1E7FB50C00FE78F6 /* CATextLayerViewController.m */; };
+		E3A8C88F1E7FB50C00FE78F6 /* CATextLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A8C88D1E7FB50C00FE78F6 /* CATextLayerViewController.xib */; };
+		E3A8C8991E7FD05A00FE78F6 /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A8C8971E7FD05A00FE78F6 /* CAGradientLayerViewController.m */; };
+		E3A8C89A1E7FD05A00FE78F6 /* CAGradientLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A8C8981E7FD05A00FE78F6 /* CAGradientLayerViewController.xib */; };
 		E3FAA9FE1E792DB700B1F1A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAA9FD1E792DB700B1F1A6 /* main.m */; };
 		E3FAAA011E792DB700B1F1A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAAA001E792DB700B1F1A6 /* AppDelegate.m */; };
 		E3FAAA041E792DB700B1F1A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FAAA031E792DB700B1F1A6 /* ViewController.m */; };
@@ -39,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3076C121E80C1EF00B58426 /* ReplicatorLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayerController.h; sourceTree = "<group>"; };
+		E3076C131E80C1EF00B58426 /* ReplicatorLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayerController.m; sourceTree = "<group>"; };
+		E3076C141E80C1EF00B58426 /* ReplicatorLayerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplicatorLayerController.xib; sourceTree = "<group>"; };
 		E334F7791E7A7E4E0016ABFE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		E334F77A1E7A7E4E0016ABFE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E334F77B1E7A7E4E0016ABFE /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
@@ -51,6 +62,15 @@
 		E3A8C8801E7F74C200FE78F6 /* CGATransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGATransformViewController.h; sourceTree = "<group>"; };
 		E3A8C8811E7F74C200FE78F6 /* CGATransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGATransformViewController.m; sourceTree = "<group>"; };
 		E3A8C8821E7F74C200FE78F6 /* CGATransformViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGATransformViewController.xib; sourceTree = "<group>"; };
+		E3A8C8861E7FB14700FE78F6 /* CornerRectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerRectViewController.h; sourceTree = "<group>"; };
+		E3A8C8871E7FB14700FE78F6 /* CornerRectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerRectViewController.m; sourceTree = "<group>"; };
+		E3A8C8881E7FB14700FE78F6 /* CornerRectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CornerRectViewController.xib; sourceTree = "<group>"; };
+		E3A8C88B1E7FB50C00FE78F6 /* CATextLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATextLayerViewController.h; sourceTree = "<group>"; };
+		E3A8C88C1E7FB50C00FE78F6 /* CATextLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATextLayerViewController.m; sourceTree = "<group>"; };
+		E3A8C88D1E7FB50C00FE78F6 /* CATextLayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CATextLayerViewController.xib; sourceTree = "<group>"; };
+		E3A8C8961E7FD05A00FE78F6 /* CAGradientLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerViewController.h; sourceTree = "<group>"; };
+		E3A8C8971E7FD05A00FE78F6 /* CAGradientLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerViewController.m; sourceTree = "<group>"; };
+		E3A8C8981E7FD05A00FE78F6 /* CAGradientLayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAGradientLayerViewController.xib; sourceTree = "<group>"; };
 		E3FAA9F91E792DB700B1F1A6 /* BLCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FAA9FD1E792DB700B1F1A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3FAA9FF1E792DB700B1F1A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +110,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3076C111E80C1A800B58426 /* 7Day(ReplicatorLayer复制图层) */ = {
+			isa = PBXGroup;
+			children = (
+				E3076C121E80C1EF00B58426 /* ReplicatorLayerController.h */,
+				E3076C131E80C1EF00B58426 /* ReplicatorLayerController.m */,
+				E3076C141E80C1EF00B58426 /* ReplicatorLayerController.xib */,
+			);
+			name = "7Day(ReplicatorLayer复制图层)";
+			path = 7Day;
+			sourceTree = "<group>";
+		};
 		E334F7781E7A7E260016ABFE /* 2Day */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +131,7 @@
 			path = 2Day;
 			sourceTree = "<group>";
 		};
-		E35912E81E7B9291005F7A89 /* 3Day */ = {
+		E35912E81E7B9291005F7A89 /* 3Day(HitView获取点击的当前Layer) */ = {
 			isa = PBXGroup;
 			children = (
 				E35912E91E7B92A8005F7A89 /* HitTestViewController.h */,
@@ -110,17 +141,44 @@
 				E35912EF1E7BD5BB005F7A89 /* CGAffineTransformViewController.m */,
 				E35912F01E7BD5BB005F7A89 /* CGAffineTransformViewController.xib */,
 			);
+			name = "3Day(HitView获取点击的当前Layer)";
 			path = 3Day;
 			sourceTree = "<group>";
 		};
-		E3A8C87F1E7F748000FE78F6 /* 4Day */ = {
+		E3A8C87F1E7F748000FE78F6 /* 4Day(CATransform画立方体) */ = {
 			isa = PBXGroup;
 			children = (
 				E3A8C8801E7F74C200FE78F6 /* CGATransformViewController.h */,
 				E3A8C8811E7F74C200FE78F6 /* CGATransformViewController.m */,
 				E3A8C8821E7F74C200FE78F6 /* CGATransformViewController.xib */,
 			);
+			name = "4Day(CATransform画立方体)";
 			path = 4Day;
+			sourceTree = "<group>";
+		};
+		E3A8C8851E7FB09900FE78F6 /* 5Day(贝塞尔切部分圆角和CATextLayer) */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8C8861E7FB14700FE78F6 /* CornerRectViewController.h */,
+				E3A8C8871E7FB14700FE78F6 /* CornerRectViewController.m */,
+				E3A8C8881E7FB14700FE78F6 /* CornerRectViewController.xib */,
+				E3A8C88B1E7FB50C00FE78F6 /* CATextLayerViewController.h */,
+				E3A8C88C1E7FB50C00FE78F6 /* CATextLayerViewController.m */,
+				E3A8C88D1E7FB50C00FE78F6 /* CATextLayerViewController.xib */,
+			);
+			name = "5Day(贝塞尔切部分圆角和CATextLayer)";
+			path = 5Day;
+			sourceTree = "<group>";
+		};
+		E3A8C8901E7FC4C900FE78F6 /* 6Day(颜色渐变) */ = {
+			isa = PBXGroup;
+			children = (
+				E3A8C8961E7FD05A00FE78F6 /* CAGradientLayerViewController.h */,
+				E3A8C8971E7FD05A00FE78F6 /* CAGradientLayerViewController.m */,
+				E3A8C8981E7FD05A00FE78F6 /* CAGradientLayerViewController.xib */,
+			);
+			name = "6Day(颜色渐变)";
+			path = 6Day;
 			sourceTree = "<group>";
 		};
 		E3FAA9F01E792DB700B1F1A6 = {
@@ -144,10 +202,13 @@
 		E3FAA9FB1E792DB700B1F1A6 /* BLCoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				E3FAAA211E79322A00B1F1A6 /* 1Day */,
+				E3FAAA211E79322A00B1F1A6 /* 1Day(Layer基础) */,
 				E334F7781E7A7E260016ABFE /* 2Day */,
-				E35912E81E7B9291005F7A89 /* 3Day */,
-				E3A8C87F1E7F748000FE78F6 /* 4Day */,
+				E35912E81E7B9291005F7A89 /* 3Day(HitView获取点击的当前Layer) */,
+				E3A8C87F1E7F748000FE78F6 /* 4Day(CATransform画立方体) */,
+				E3A8C8851E7FB09900FE78F6 /* 5Day(贝塞尔切部分圆角和CATextLayer) */,
+				E3A8C8901E7FC4C900FE78F6 /* 6Day(颜色渐变) */,
+				E3076C111E80C1A800B58426 /* 7Day(ReplicatorLayer复制图层) */,
 				E3FAAA001E792DB700B1F1A6 /* AppDelegate.m */,
 				E3FAA9FF1E792DB700B1F1A6 /* AppDelegate.h */,
 				E3FAAA021E792DB700B1F1A6 /* ViewController.h */,
@@ -178,7 +239,7 @@
 			path = BLCoreAnimationTests;
 			sourceTree = "<group>";
 		};
-		E3FAAA211E79322A00B1F1A6 /* 1Day */ = {
+		E3FAAA211E79322A00B1F1A6 /* 1Day(Layer基础) */ = {
 			isa = PBXGroup;
 			children = (
 				E3FAAA221E79326000B1F1A6 /* FirstDayViewController.h */,
@@ -188,6 +249,7 @@
 				E3FAAA281E7945B800B1F1A6 /* ContentsRectViewController.m */,
 				E3FAAA291E7945B800B1F1A6 /* ContentsRectViewController.xib */,
 			);
+			name = "1Day(Layer基础)";
 			path = 1Day;
 			sourceTree = "<group>";
 		};
@@ -275,15 +337,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A8C89A1E7FD05A00FE78F6 /* CAGradientLayerViewController.xib in Resources */,
 				E3FAAA2B1E7945B800B1F1A6 /* ContentsRectViewController.xib in Resources */,
 				E3FAAA261E79326000B1F1A6 /* FirstDayViewController.xib in Resources */,
 				E35912F21E7BD5BB005F7A89 /* CGAffineTransformViewController.xib in Resources */,
 				E35912ED1E7B92A8005F7A89 /* HitTestViewController.xib in Resources */,
+				E3076C161E80C1EF00B58426 /* ReplicatorLayerController.xib in Resources */,
 				E334F77D1E7A7E4E0016ABFE /* SecondViewController.xib in Resources */,
 				E3A8C8841E7F74C200FE78F6 /* CGATransformViewController.xib in Resources */,
 				E3FAAA0C1E792DB700B1F1A6 /* LaunchScreen.storyboard in Resources */,
 				E3FAAA091E792DB700B1F1A6 /* Assets.xcassets in Resources */,
 				E3FAAA071E792DB700B1F1A6 /* Main.storyboard in Resources */,
+				E3A8C88F1E7FB50C00FE78F6 /* CATextLayerViewController.xib in Resources */,
+				E3A8C88A1E7FB14700FE78F6 /* CornerRectViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,8 +369,12 @@
 			files = (
 				E35912EC1E7B92A8005F7A89 /* HitTestViewController.m in Sources */,
 				E334F77C1E7A7E4E0016ABFE /* SecondViewController.m in Sources */,
+				E3A8C88E1E7FB50C00FE78F6 /* CATextLayerViewController.m in Sources */,
 				E3FAAA2A1E7945B800B1F1A6 /* ContentsRectViewController.m in Sources */,
+				E3A8C8991E7FD05A00FE78F6 /* CAGradientLayerViewController.m in Sources */,
+				E3A8C8891E7FB14700FE78F6 /* CornerRectViewController.m in Sources */,
 				E3FAAA251E79326000B1F1A6 /* FirstDayViewController.m in Sources */,
+				E3076C151E80C1EF00B58426 /* ReplicatorLayerController.m in Sources */,
 				E3A8C8831E7F74C200FE78F6 /* CGATransformViewController.m in Sources */,
 				E3FAAA041E792DB700B1F1A6 /* ViewController.m in Sources */,
 				E3FAAA011E792DB700B1F1A6 /* AppDelegate.m in Sources */,

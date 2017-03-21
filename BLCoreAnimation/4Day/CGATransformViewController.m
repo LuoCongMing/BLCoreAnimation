@@ -9,6 +9,10 @@
 #import "CGATransformViewController.h"
 
 @interface CGATransformViewController ()
+{
+    
+    CATransform3D perspective;
+}
 
 @end
 
@@ -16,14 +20,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // 如果要实现多个这种 可以用CATransformLayer 来实现
+    
     // Do any additional setup after loading the view from its nib.
     //先设置view的 透视变换 控制view上所加的所有图层的视角
-    CATransform3D perspective = CATransform3DIdentity;
+    perspective = CATransform3DIdentity;
     perspective.m34 = -1.0/500.0;
-    perspective = CATransform3DRotate(perspective, -M_PI_4, 1, 0, 0);
-    perspective = CATransform3DRotate(perspective, -M_PI_4, 0, 1, 0);
-    perspective = CATransform3DTranslate(perspective, -50, 0, 0);
+//    perspective = CATransform3DRotate(perspective, -M_PI_4, 1, 0, 0);
+//    perspective = CATransform3DRotate(perspective, -M_PI_4, 0, 1, 0);
     self.view.layer.sublayerTransform = perspective;
+    self.view.layer.anchorPointZ = -50;//调整positionZ使控制点在立方体中心
     [self transform];
     
     [self.view addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)]];
@@ -31,7 +38,36 @@
 }
 -(void)pan:(UIPanGestureRecognizer*)pan{
     
+    CGPoint offset = [pan translationInView:self.view];
     
+    switch (pan.state) {
+        case UIGestureRecognizerStateBegan:
+        {
+            
+            
+        }
+            break;
+        case UIGestureRecognizerStateEnded:
+        {
+            
+            
+        }
+            break;
+        case UIGestureRecognizerStateChanged:{
+            
+            CGFloat percentX = offset.x/320;
+        
+            perspective = CATransform3DRotate(perspective, M_PI_4*percentX, 0, 1, 0);
+            
+            CGFloat percentY = offset.y/567;
+            perspective = CATransform3DRotate(perspective, -M_PI_4*percentY, 1, 0, 0);
+            self.view.layer.sublayerTransform = perspective;
+          
+        }
+            break;
+        default:
+            break;
+    }
     
 }
 -(void)transform{
@@ -43,7 +79,7 @@
     UILabel*label2 = self.labelArray[1];
     CATransform3D transform2 = CATransform3DIdentity;
     transform2 = CATransform3DTranslate(transform2, -50, 0, -50);
-    transform2 = CATransform3DRotate(transform2, M_PI_2, 0, 1, 0);
+    transform2 = CATransform3DRotate(transform2, -M_PI_2, 0, 1, 0);
     label2.layer.transform = transform2;
     
 //    // label3放最后面

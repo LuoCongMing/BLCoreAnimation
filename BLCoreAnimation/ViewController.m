@@ -21,7 +21,7 @@
     self.tableView.rowHeight = 40;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     self.tableView.tableFooterView = [UIView new];
-    _controllers = @[@"FirstDayViewController",@"SecondViewController",@"HitTestViewController",@"CGATransformViewController"];
+    _controllers = @[@"FirstDayViewController",@"SecondViewController",@"HitTestViewController",@"CGATransformViewController",@"CornerRectViewController",@"CAGradientLayerViewController",@"ReplicatorLayerController"];
     
 }
 
